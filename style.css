@@ -16,30 +16,37 @@ body {
 .container {
     background: white;
     width: 90%;
-    max-width: 600px;
-    padding: 40px;
+    max-width: 500px;
+    padding: 35px;
     text-align: center;
     border-radius: 15px;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
-    margin-bottom: 15px;
-    font-size: 40px;
+    margin-bottom: 10px;
+    font-size: 30px;
 }
 
-p {
-    margin: 10px 0;
-    font-size: 18px;
-}
-
-.task {
-    font-weight: bold;
+.container > p {
     margin-bottom: 25px;
 }
 
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
 button {
-    padding: 12px 25px;
+    padding: 12px;
     border: none;
     border-radius: 8px;
     background: #333;
